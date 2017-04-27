@@ -1,3 +1,4 @@
+import { HelloService } from './hello.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,13 +6,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './hello.component.html',
   styleUrls: ['./hello.component.css']
 })
-export class HelloComponent implements OnInit {
-
-
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class HelloComponent {
 
 }
